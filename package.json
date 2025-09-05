@@ -2,7 +2,7 @@
   "name": "portfolio-erick-santos",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ericksantox.github.io/portfolio-erick-santos",
+  "homepage": "https://ericksantox.github.io/portfolio",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@radix-ui/react-slot": "^1.2.3",
