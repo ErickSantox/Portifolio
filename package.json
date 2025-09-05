@@ -1,7 +1,8 @@
 {
-  "name": "portfolio-erick-santos",
+  "name": "Portfolio-erick",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ErickSantox.github.io/portfolio-erick-santos",
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@radix-ui/react-slot": "^1.2.3",
@@ -15,17 +16,20 @@
     "react-scripts": "5.0.1",
     "tailwind-merge": "^3.3.1"
   },
-  "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject"
+"scripts": {
+  "start": "craco start",
+  "build": "craco build",
+  "test": "craco test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "gh-pages": "^6.0.0"
   },
   "browserslist": {
     "production": [
